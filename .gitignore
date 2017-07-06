@@ -6,7 +6,7 @@ npm-debug.*
 .vscode/
 
 
-## Package files  ##
+##  Dist app packages  ##
 *.apk
 *.ipa
 
