@@ -6,7 +6,7 @@ import Chat from './screens/chat'
 
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "YOUR_API_KEY_HERE",
   databaseURL: "YOUR_DATABASE_URL",
 }
 
