@@ -1,4 +1,4 @@
-# ph7-dating-app
+# 💖 pH7 Dating App 🌟
 
 A great Tinder Like App, cooked with from the "pH7CMS way".
 
