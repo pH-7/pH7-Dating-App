@@ -30,6 +30,7 @@ export default class Profile extends Component {
     const {first_name, work, id} = this.props.user
     const {ageRangeValues, distanceValue, showMen, showWomen} = this.state
     const bio = (work && work[0] && work[0].position) ? work[0].position.name : null
+
     return (
       <View style={styles.container}>
         <View style={styles.profile}>

@@ -6,6 +6,7 @@ export default class CircleImage extends Component {
     const {size, facebookID} = this.props
     const imageSize = PixelRatio.getPixelSizeForLayoutSize(size)
     const fbImage = `https://graph.facebook.com/${facebookID}/picture?height=${imageSize}`
+
     return (
       <Image
         source={{uri:fbImage}}

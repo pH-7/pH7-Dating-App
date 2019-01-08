@@ -45,6 +45,7 @@ export default class Chat extends Component {
   render() {
     const avatarSize = 80
     const avatar = `https://graph.facebook.com/${this.state.user.id}/picture?height=${avatarSize}`
+
     return (
       <GiftedChat
         messages={this.state.messages}
