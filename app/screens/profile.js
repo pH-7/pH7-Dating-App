@@ -54,7 +54,7 @@ export default class Profile extends Component {
         </View>
         <Slider
           min={18}
-          max={70}
+          max={68}
           values={ageRangeValues}
           onValuesChange={val => this.setState({ageRangeValues:val})}
           onValuesChangeFinish={val => this.updateUser('ageRange', val)}

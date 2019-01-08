@@ -7,7 +7,7 @@ A great Tinder Like App, cooked with from the "pH7CMS way".
 
 * Create an account at Firebase.com
 * Update the `apiKey` and `databaseURL` by yours in `~/app/index.js`
-
+* Edit `~/app/screens/login.js` and change `YOUR_FB_APP_ID` by your Facebook app ID you created for this ReactNative app.
 
 ## Want Something More Powerful...?
 

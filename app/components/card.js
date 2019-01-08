@@ -73,7 +73,7 @@ export default class Card extends Component {
           source={{uri: fbImage}}
         />
         <View style={{margin:20}}>
-          <Text style={{fontSize:20}}>{first_name}, {profileAge}</Text>
+          <Text style={{fontSize:20}}>{first_name} - {profileAge}</Text>
           {bio ? <Text style={{fontSize:15, color:'darkgrey'}}>{bio}</Text> : <View />}
         </View>
       </Animated.View>
